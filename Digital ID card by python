@@ -1,0 +1,26 @@
+def ide_card():
+    # المعلومات (المتغيرات)
+    name = input("Enter your first name please: ")
+    last_name = input("Enter your last name please: ")
+    age = input("Enter your age please: ")
+    height = input("Enter your height (in cm) please: ")
+    weight = input("Enter your weight (in kg) please: ")
+
+    # عرض المعلومات
+    print("\n--- ID Card ---")
+    print("Name: ", name)
+    print("Last Name: ", last_name)
+    print("Age: ", age)
+    print("Height: ", height, "cm")
+    print("Weight: ", weight, "kg")
+
+# تشغيل الدالة
+ide_card()
+
+
+
+
+
+
+
+
